@@ -216,3 +216,39 @@ footer  a {
 .text-center{
 	text-align: center;
 }
+
+@media screen and (min-width:40rem) {
+	
+	header nav  {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.cards{
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.card:nth-child(2n){
+		margin-top: 1rem;
+	}
+}
+
+@media screen and( min-width: 48rem){
+
+	header div {
+		justify-content: space-between;
+	}
+
+	header img,
+	header nav,
+	header .button {
+		margin: 0;
+	}
+
+	@media screen (min-width: 72rem) {
+		
+	}
+}
